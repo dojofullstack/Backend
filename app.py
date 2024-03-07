@@ -1,3 +1,8 @@
+from modulos.main import get_apiKey
+from modulos.api_test import (
+                            api_test,
+                            api_login
+                            )
 
 
 # esto es un comentario
@@ -14,3 +19,14 @@ usuario = 'rosa'
 edad = 33
 print(usuario)
 print(edad)
+
+
+salidaApiKey =  get_apiKey()
+
+print(salidaApiKey)
+
+
+# api_test()
+
+
+api_login('kminchelle', '0lelplR')

@@ -62,7 +62,7 @@ comentario = '\n  informees \t sobre el bootcamp    \n \t'
 
 
 edad = 123
-precio = 9.534
+precio = 9.534str
 
 # suma
 # sumando = edad + 10
